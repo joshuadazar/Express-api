@@ -18,7 +18,7 @@ app.use('/api/hello', helloModule);
 app.use('/api/users', users);
 app.use('/sw', starWars);
 app.use('/data', jsonData);
-app.use('/rnd',(req, res)=> res.send(String(Math.floor(Math.random()*10))) )
+app.use('/rnd',(req, res)=> res.send(String(Math.floor(Math.random()*10))));
 app.use('', welcome);
 
 // Start the server on port 3000.
