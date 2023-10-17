@@ -1,8 +1,10 @@
 // Import the express library.
 const express = require('express');
+const cors = require('cors')
 
 // Create a new express app.
 const app = express();
+app.use(cors());
 
 // Create a new module to handle the /api/hello route.
 
