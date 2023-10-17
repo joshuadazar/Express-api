@@ -1,4 +1,4 @@
-const routes = ['/api/hello', '/api/users', '/sw', '/data'];
+const routes = ['/api/hello', '/api/users', '/sw', '/data', '/rnd'];
 
 module.exports = (req, res) => {
   let htmlElement = '';
